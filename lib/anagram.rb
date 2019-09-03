@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(words)
-    words.select { |word| word.}
+    words.select { |word| word.split("") == word.split("")}
   end 
 end
